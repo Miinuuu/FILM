@@ -1,7 +1,7 @@
 # Repruducing FILM in Tensorflow
 
 ## Introduction
-This is a tensorflow implementation of the 'Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation'
+This is a tensorflow implementation of the 'FILM: Frame Interpolation for Large Motion'
 
 ## Running the code
 
