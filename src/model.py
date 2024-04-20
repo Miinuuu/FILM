@@ -3,7 +3,6 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import math
 import numpy as np
-from config import MODEL_CONFIG
 from tensorflow_addons import optimizers as tfa_optimizers
 
 from feature_extractor import * 

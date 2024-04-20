@@ -6,10 +6,10 @@ This is a tensorflow implementation of the 'FILM: Frame Interpolation for Large 
 ## Running the code
 
 ### train 
-'python3 -m vfi.src.train'
+'python3 -m src.train'
 
 ### evaluation
-'python3 -m vfi.src.eval'
+'python3 -m src.eval'
 
 ### Training data
 EMA is trained on a proprietary dataset with one million internet video clips, each comprising 3 frames.
