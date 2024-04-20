@@ -1,0 +1,19 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                                               | 0/119 [00:14<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 15.59s
+I1121 15:10:59.003343 139773848019328 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 15.59s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 96, in test_train_eval
+    tepoch.set_postfix(epoch=epoch,psnr=metrics['psnr'].numpy() , loss =metrics['loss'].numpy() ,mse =metrics['mse'].numpy()  )
+TypeError: tuple indices must be integers or slices, not str
+----------------------------------------------------------------------
+Ran 2 tests in 15.635s
+FAILED (errors=1, skipped=1)

@@ -1,0 +1,13 @@
+2023-11-21 15:03:11,433 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Configure stats pid to 437442
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Loading settings from /home/jmw/.config/wandb/settings
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Loading settings from /home/jmw/ing/myfi/vfi/src/wandb/settings
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'vfi/src/models_test.py', 'program_abspath': '/home/jmw/ing/myfi/vfi/src/models_test.py', 'program': '/home/jmw/ing/myfi/vfi/src/models_test.py'}
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_init.py:_log_setup():524] Logging user logs to /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_150311-rmmbwkt0/logs/debug.log
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_init.py:_log_setup():525] Logging internal logs to /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_150311-rmmbwkt0/logs/debug-internal.log
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_init.py:init():564] calling init triggers
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-21 15:03:11,434 INFO    MainThread:437442 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2023-11-21 15:04:07,699 WARNING MsgRouterThr:437442 [router.py:message_loop():77] message_loop has been closed

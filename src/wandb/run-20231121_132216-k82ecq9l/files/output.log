@@ -1,0 +1,76 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                                 | 0/12829 [00:00<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 0.97s
+I1121 13:22:19.665310 139941429596544 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 0.97s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 87, in test_train_eval
+    metrics=train_step(img0,gt,img1)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 963, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 785, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2523, in _get_concrete_function_internal_garbage_collected
+    graph_function, _ = self._maybe_define_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2760, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2670, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1247, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 677, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1233, in autograph_handler
+    raise e.ag_error_metadata.to_exception(e)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1222, in autograph_handler
+    return autograph.converted_call(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 439, in converted_call
+    result = converted_f(*effective_args, **kwargs)
+  File "/tmp/__autograph_generated_file55bzxvd0.py", line 11, in tf__train_step
+    img0 = ag__.converted_call(ag__.ld(tf).cast, (ag__.ld(img0) / 255.0,), dict(dtype=ag__.ld(tf).float32), fscope)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1423, in binary_op_wrapper
+    raise e
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1407, in binary_op_wrapper
+    return func(x, y, name=name)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1176, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1590, in truediv
+    return _truediv_python3(x, y, name)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1517, in _truediv_python3
+    raise TypeError(f"`x` and `y` must have the same dtype, "
+TypeError: in user code:
+    File "/home/jmw/ing/myfi/vfi/src/model.py", line 364, in train_step  *
+        img0 = tf.cast(img0/255.0, dtype=tf.float32)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+        return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1423, in binary_op_wrapper
+        raise e
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1407, in binary_op_wrapper
+        return func(x, y, name=name)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+        return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1176, in op_dispatch_handler
+        return dispatch_target(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1590, in truediv
+        return _truediv_python3(x, y, name)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1517, in _truediv_python3
+        raise TypeError(f"`x` and `y` must have the same dtype, "
+    TypeError: `x` and `y` must have the same dtype, got tf.uint8 != tf.float32.
+----------------------------------------------------------------------
+Ran 2 tests in 0.975s
+FAILED (errors=1, skipped=1)

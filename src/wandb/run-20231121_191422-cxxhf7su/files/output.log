@@ -1,0 +1,25 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 0.0s
+I1121 19:14:25.234590 139918294401408 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 0.0s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/my_film/src/models_test.py", line 70, in test_train_eval
+    model= Model(Options)
+  File "/home/jmw/ing/myfi/my_film/src/model.py", line 47, in __init__
+    self.extract = FeatureExtractor('feat_net', self.config)
+  File "/home/jmw/ing/myfi/my_film/src/feature_extractor.py", line 160, in __init__
+    self.extract_sublevels = SubTreeExtractor('sub_extractor', config)
+  File "/home/jmw/ing/myfi/my_film/src/feature_extractor.py", line 116, in __init__
+    k = config.filters
+AttributeError: type object 'Options' has no attribute 'filters'
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+FAILED (errors=1, skipped=1)
+<class 'options.Options'>

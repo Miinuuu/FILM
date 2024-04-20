@@ -1,0 +1,1967 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 802/802 [26:48<00:00,  2.01s/batch, epoch=0, loss=3.5, mse=170, psnr=27.8]
+Creates a checkpoint at/home/jmw/ing/myfi/vfi/ckptfor0
+
+
+
+  0%|                                                                                                                                                                         | 0/3782 [00:00<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 1610.61s
+I1121 15:55:11.051230 140569928962432 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 1610.61s
+
+[  FAILED  ] ModelsTest.test_train_eval
+WARNING:tensorflow:Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+W1121 15:55:11.055235 140569928962432 checkpoint.py:204] Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer.iter
+W1121 15:55:11.055448 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer.iter
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer.beta_1
+W1121 15:55:11.055650 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer.beta_1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer.beta_2
+W1121 15:55:11.055812 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer.beta_2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer.decay
+W1121 15:55:11.055990 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer.decay
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.0
+W1121 15:55:11.056116 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.0
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.1
+W1121 15:55:11.056271 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.2
+W1121 15:55:11.056451 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.3
+W1121 15:55:11.056556 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.3
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.4
+W1121 15:55:11.056689 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.4
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.5
+W1121 15:55:11.056788 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.5
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.6
+W1121 15:55:11.056887 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.6
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.7
+W1121 15:55:11.057042 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.7
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.8
+W1121 15:55:11.057230 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.8
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.9
+W1121 15:55:11.057374 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.9
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.10
+W1121 15:55:11.057510 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.10
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.11
+W1121 15:55:11.057607 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.11
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.12
+W1121 15:55:11.057720 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.12
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.13
+W1121 15:55:11.057818 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.13
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.14
+W1121 15:55:11.057915 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.14
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.15
+W1121 15:55:11.058013 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.15
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.16
+W1121 15:55:11.058142 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.16
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.17
+W1121 15:55:11.058276 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.17
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.18
+W1121 15:55:11.058391 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.18
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.19
+W1121 15:55:11.058487 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.19
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.20
+W1121 15:55:11.058584 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.20
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.21
+W1121 15:55:11.058680 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.21
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.22
+W1121 15:55:11.058776 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.22
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.23
+W1121 15:55:11.058925 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.23
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.24
+W1121 15:55:11.059035 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.24
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.25
+W1121 15:55:11.059149 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.25
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.26
+W1121 15:55:11.059260 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.26
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.27
+W1121 15:55:11.059356 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.27
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.28
+W1121 15:55:11.059471 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.28
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.29
+W1121 15:55:11.059584 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.29
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.30
+W1121 15:55:11.059680 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.30
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.31
+W1121 15:55:11.059777 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.31
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.32
+W1121 15:55:11.059874 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.32
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.33
+W1121 15:55:11.059970 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.33
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.34
+W1121 15:55:11.060066 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.34
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.35
+W1121 15:55:11.060163 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.35
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.36
+W1121 15:55:11.060259 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.36
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.37
+W1121 15:55:11.060355 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.37
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.38
+W1121 15:55:11.060469 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.38
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.39
+W1121 15:55:11.060567 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.39
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.40
+W1121 15:55:11.060664 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.40
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.41
+W1121 15:55:11.060762 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.41
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.42
+W1121 15:55:11.060890 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.42
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.43
+W1121 15:55:11.060988 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.43
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.44
+W1121 15:55:11.061099 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.44
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.45
+W1121 15:55:11.061196 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.45
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.46
+W1121 15:55:11.061293 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.46
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.47
+W1121 15:55:11.061388 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.47
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.48
+W1121 15:55:11.061485 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.48
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.49
+W1121 15:55:11.061581 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.49
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.50
+W1121 15:55:11.061678 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.50
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.51
+W1121 15:55:11.061775 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.51
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.52
+W1121 15:55:11.061871 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.52
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.53
+W1121 15:55:11.061968 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.53
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.54
+W1121 15:55:11.062081 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.54
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.55
+W1121 15:55:11.062179 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.55
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.56
+W1121 15:55:11.062281 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.56
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.57
+W1121 15:55:11.062427 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.57
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.58
+W1121 15:55:11.062524 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.58
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.59
+W1121 15:55:11.062620 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.59
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.60
+W1121 15:55:11.062717 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.60
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.61
+W1121 15:55:11.062813 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.61
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.62
+W1121 15:55:11.062909 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.62
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.63
+W1121 15:55:11.063006 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.63
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.64
+W1121 15:55:11.063102 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.64
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.65
+W1121 15:55:11.063197 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.65
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.66
+W1121 15:55:11.063294 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.66
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.67
+W1121 15:55:11.063390 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.67
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.68
+W1121 15:55:11.063487 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.68
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.69
+W1121 15:55:11.063583 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.69
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.70
+W1121 15:55:11.063678 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.70
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.71
+W1121 15:55:11.063775 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.71
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.72
+W1121 15:55:11.063872 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.72
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.73
+W1121 15:55:11.063969 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.73
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.74
+W1121 15:55:11.064065 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.74
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.75
+W1121 15:55:11.064161 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.75
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.76
+W1121 15:55:11.064256 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.76
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.77
+W1121 15:55:11.064352 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.77
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.78
+W1121 15:55:11.064448 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.78
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.79
+W1121 15:55:11.064544 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.79
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.80
+W1121 15:55:11.064639 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.80
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.81
+W1121 15:55:11.064735 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.81
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.82
+W1121 15:55:11.064831 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.82
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.83
+W1121 15:55:11.064928 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.83
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.84
+W1121 15:55:11.065023 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.84
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.85
+W1121 15:55:11.065120 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.85
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.86
+W1121 15:55:11.065215 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.86
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.87
+W1121 15:55:11.065310 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.87
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.88
+W1121 15:55:11.065407 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.88
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.89
+W1121 15:55:11.065502 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.89
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.90
+W1121 15:55:11.065598 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.90
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.91
+W1121 15:55:11.065694 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.91
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.92
+W1121 15:55:11.065790 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.92
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.93
+W1121 15:55:11.065886 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.93
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.94
+W1121 15:55:11.065983 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.94
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.95
+W1121 15:55:11.066079 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.95
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.96
+W1121 15:55:11.066175 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.96
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.97
+W1121 15:55:11.066292 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.97
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.98
+W1121 15:55:11.066421 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.98
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.99
+W1121 15:55:11.066554 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.99
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.100
+W1121 15:55:11.066668 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.100
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.101
+W1121 15:55:11.066800 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.101
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.102
+W1121 15:55:11.066954 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.102
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.103
+W1121 15:55:11.067066 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.103
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.104
+W1121 15:55:11.067163 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.104
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.105
+W1121 15:55:11.067259 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.105
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.106
+W1121 15:55:11.067356 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.106
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.107
+W1121 15:55:11.067479 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.107
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.108
+W1121 15:55:11.067578 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.108
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.109
+W1121 15:55:11.067675 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.109
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.110
+W1121 15:55:11.067773 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.110
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.111
+W1121 15:55:11.067871 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.111
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.112
+W1121 15:55:11.067970 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.112
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.113
+W1121 15:55:11.068068 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.113
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.114
+W1121 15:55:11.068166 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.114
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.115
+W1121 15:55:11.068264 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.115
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.116
+W1121 15:55:11.068363 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.116
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.117
+W1121 15:55:11.068462 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.117
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.118
+W1121 15:55:11.068560 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.118
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.119
+W1121 15:55:11.068658 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.119
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.120
+W1121 15:55:11.068757 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.120
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.121
+W1121 15:55:11.068854 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.121
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.122
+W1121 15:55:11.068953 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.122
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.123
+W1121 15:55:11.069051 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.123
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.124
+W1121 15:55:11.069149 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.124
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.125
+W1121 15:55:11.069247 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.125
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.126
+W1121 15:55:11.069345 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.126
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.127
+W1121 15:55:11.069442 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.127
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.128
+W1121 15:55:11.069540 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.128
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.129
+W1121 15:55:11.069638 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.129
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.130
+W1121 15:55:11.069735 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.130
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.131
+W1121 15:55:11.069833 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.131
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.132
+W1121 15:55:11.069931 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.132
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.133
+W1121 15:55:11.070028 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.133
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.134
+W1121 15:55:11.070126 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.134
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.135
+W1121 15:55:11.070224 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.135
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.136
+W1121 15:55:11.070337 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.136
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.137
+W1121 15:55:11.070435 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.137
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.138
+W1121 15:55:11.070534 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.138
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.139
+W1121 15:55:11.070633 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.139
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.140
+W1121 15:55:11.070742 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.140
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.141
+W1121 15:55:11.070866 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.141
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.142
+W1121 15:55:11.070981 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.142
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.143
+W1121 15:55:11.071131 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.143
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.144
+W1121 15:55:11.071249 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.144
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.145
+W1121 15:55:11.071348 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.145
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.146
+W1121 15:55:11.071447 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.146
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.147
+W1121 15:55:11.071545 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.147
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.148
+W1121 15:55:11.071644 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.148
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.149
+W1121 15:55:11.071743 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.149
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.150
+W1121 15:55:11.071841 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.150
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.151
+W1121 15:55:11.071940 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.151
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.152
+W1121 15:55:11.072037 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.152
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.153
+W1121 15:55:11.072135 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.153
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.154
+W1121 15:55:11.072232 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.154
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.155
+W1121 15:55:11.072330 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.155
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.156
+W1121 15:55:11.072444 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.156
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.157
+W1121 15:55:11.072558 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.157
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.158
+W1121 15:55:11.072656 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.158
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.159
+W1121 15:55:11.072803 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.159
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.160
+W1121 15:55:11.072900 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.160
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.161
+W1121 15:55:11.072996 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.161
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.162
+W1121 15:55:11.073092 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.162
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.163
+W1121 15:55:11.073188 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.163
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.164
+W1121 15:55:11.073284 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.164
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.165
+W1121 15:55:11.073381 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.165
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.166
+W1121 15:55:11.073478 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.166
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.167
+W1121 15:55:11.073574 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.167
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.168
+W1121 15:55:11.073670 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.168
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.169
+W1121 15:55:11.073766 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.169
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.170
+W1121 15:55:11.073861 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.170
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.171
+W1121 15:55:11.073958 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.171
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.172
+W1121 15:55:11.074053 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.172
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.173
+W1121 15:55:11.074150 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.173
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.174
+W1121 15:55:11.074246 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.174
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.175
+W1121 15:55:11.074383 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.175
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.176
+W1121 15:55:11.074480 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.176
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.177
+W1121 15:55:11.074576 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.177
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.178
+W1121 15:55:11.074673 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.178
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.179
+W1121 15:55:11.074770 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.179
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.180
+W1121 15:55:11.074867 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.180
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.181
+W1121 15:55:11.074962 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.181
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.182
+W1121 15:55:11.075059 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.182
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.183
+W1121 15:55:11.075209 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.183
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.184
+W1121 15:55:11.075308 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.184
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.185
+W1121 15:55:11.075406 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model._all_trainable_variables.185
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.0
+W1121 15:55:11.075504 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.0
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.1
+W1121 15:55:11.075603 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.2
+W1121 15:55:11.075701 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.3
+W1121 15:55:11.075802 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.3
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.4
+W1121 15:55:11.075900 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.4
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.5
+W1121 15:55:11.075999 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.5
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.6
+W1121 15:55:11.076097 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.6
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.7
+W1121 15:55:11.076194 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.7
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.8
+W1121 15:55:11.076293 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.8
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.9
+W1121 15:55:11.076391 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.9
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.10
+W1121 15:55:11.076489 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.10
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.11
+W1121 15:55:11.076587 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.11
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.12
+W1121 15:55:11.076684 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.12
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.13
+W1121 15:55:11.076783 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.13
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.14
+W1121 15:55:11.076881 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.14
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.15
+W1121 15:55:11.076980 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.15
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.16
+W1121 15:55:11.077078 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.16
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.17
+W1121 15:55:11.077175 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.17
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.18
+W1121 15:55:11.077272 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.18
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.19
+W1121 15:55:11.077370 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.19
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.20
+W1121 15:55:11.077501 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.20
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.21
+W1121 15:55:11.077599 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.21
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.22
+W1121 15:55:11.077695 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.22
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.23
+W1121 15:55:11.077792 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.23
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.24
+W1121 15:55:11.077889 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.24
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.25
+W1121 15:55:11.077988 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.25
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.26
+W1121 15:55:11.078086 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.26
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.27
+W1121 15:55:11.078184 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.27
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.28
+W1121 15:55:11.078334 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.28
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.29
+W1121 15:55:11.078431 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.29
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.30
+W1121 15:55:11.078528 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.30
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.31
+W1121 15:55:11.078626 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.31
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.32
+W1121 15:55:11.078723 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.32
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.33
+W1121 15:55:11.078851 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.33
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.34
+W1121 15:55:11.078948 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.34
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.35
+W1121 15:55:11.079067 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.35
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.36
+W1121 15:55:11.079183 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.36
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.37
+W1121 15:55:11.079280 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.37
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.38
+W1121 15:55:11.079377 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.38
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.39
+W1121 15:55:11.079508 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.39
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.40
+W1121 15:55:11.079605 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.40
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.41
+W1121 15:55:11.079702 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.41
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.42
+W1121 15:55:11.079800 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.42
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.43
+W1121 15:55:11.079898 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.43
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.44
+W1121 15:55:11.080015 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.44
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.45
+W1121 15:55:11.080114 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.45
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.46
+W1121 15:55:11.080213 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.46
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.47
+W1121 15:55:11.080312 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.47
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.48
+W1121 15:55:11.080411 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.48
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.49
+W1121 15:55:11.080510 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.49
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.50
+W1121 15:55:11.080608 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.50
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.51
+W1121 15:55:11.080707 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.51
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.52
+W1121 15:55:11.080806 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.52
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.53
+W1121 15:55:11.080904 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.53
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.54
+W1121 15:55:11.081002 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.54
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.55
+W1121 15:55:11.081100 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.55
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.56
+W1121 15:55:11.081198 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.56
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.57
+W1121 15:55:11.081297 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.57
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.58
+W1121 15:55:11.081396 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.58
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.59
+W1121 15:55:11.081495 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.59
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.60
+W1121 15:55:11.081594 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.60
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.61
+W1121 15:55:11.081692 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.61
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.62
+W1121 15:55:11.081790 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.62
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.63
+W1121 15:55:11.081888 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.63
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.64
+W1121 15:55:11.081987 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.64
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.65
+W1121 15:55:11.082086 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.65
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.66
+W1121 15:55:11.082184 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.66
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.67
+W1121 15:55:11.082285 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.67
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.68
+W1121 15:55:11.082384 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.68
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.69
+W1121 15:55:11.082482 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.69
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.70
+W1121 15:55:11.082581 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.70
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.71
+W1121 15:55:11.082679 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.71
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.72
+W1121 15:55:11.082778 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.72
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.73
+W1121 15:55:11.082877 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.73
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.74
+W1121 15:55:11.082975 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.74
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.75
+W1121 15:55:11.083073 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.75
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.76
+W1121 15:55:11.083171 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.76
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.77
+W1121 15:55:11.083272 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.77
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.78
+W1121 15:55:11.083371 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.78
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.79
+W1121 15:55:11.083469 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.79
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.80
+W1121 15:55:11.083568 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.80
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.81
+W1121 15:55:11.083667 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.81
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.82
+W1121 15:55:11.083766 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.82
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.83
+W1121 15:55:11.083863 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.83
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.84
+W1121 15:55:11.083961 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.84
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.85
+W1121 15:55:11.084059 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.85
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.86
+W1121 15:55:11.084158 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.86
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.87
+W1121 15:55:11.084256 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.87
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.88
+W1121 15:55:11.084369 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.88
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.89
+W1121 15:55:11.084493 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.89
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.90
+W1121 15:55:11.084623 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.90
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.91
+W1121 15:55:11.084753 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.91
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.92
+W1121 15:55:11.084851 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.92
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.93
+W1121 15:55:11.084949 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.93
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.94
+W1121 15:55:11.085093 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.94
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.95
+W1121 15:55:11.085208 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.95
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.96
+W1121 15:55:11.085322 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.96
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.97
+W1121 15:55:11.085436 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.97
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.98
+W1121 15:55:11.085578 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.98
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.99
+W1121 15:55:11.085702 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.99
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.100
+W1121 15:55:11.085817 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.100
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.101
+W1121 15:55:11.085934 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.101
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.102
+W1121 15:55:11.086049 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.102
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.103
+W1121 15:55:11.086163 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.103
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.104
+W1121 15:55:11.086286 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.104
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.105
+W1121 15:55:11.086403 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.105
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.106
+W1121 15:55:11.086514 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.106
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.107
+W1121 15:55:11.086625 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.107
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.108
+W1121 15:55:11.086731 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.108
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.109
+W1121 15:55:11.086831 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.109
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.110
+W1121 15:55:11.086931 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.110
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.111
+W1121 15:55:11.087029 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.111
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.112
+W1121 15:55:11.087129 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.112
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.113
+W1121 15:55:11.087229 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.113
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.114
+W1121 15:55:11.087329 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.114
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.115
+W1121 15:55:11.087428 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.115
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.116
+W1121 15:55:11.087527 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.116
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.117
+W1121 15:55:11.087625 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.117
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.118
+W1121 15:55:11.087724 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.118
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.119
+W1121 15:55:11.087823 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.119
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.120
+W1121 15:55:11.087921 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.120
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.121
+W1121 15:55:11.088021 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.121
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.122
+W1121 15:55:11.088119 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.122
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.123
+W1121 15:55:11.088218 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.123
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.124
+W1121 15:55:11.088318 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.124
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.125
+W1121 15:55:11.088418 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.125
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.126
+W1121 15:55:11.088516 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.126
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.127
+W1121 15:55:11.088615 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.127
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.128
+W1121 15:55:11.088713 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.128
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.129
+W1121 15:55:11.088811 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.129
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.130
+W1121 15:55:11.088910 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.130
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.131
+W1121 15:55:11.089010 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.131
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.132
+W1121 15:55:11.089109 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.132
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.133
+W1121 15:55:11.089207 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.133
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.134
+W1121 15:55:11.089306 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.134
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.135
+W1121 15:55:11.089404 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.135
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.136
+W1121 15:55:11.089503 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.136
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.137
+W1121 15:55:11.089602 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.137
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.138
+W1121 15:55:11.089701 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.138
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.139
+W1121 15:55:11.089801 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.139
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.140
+W1121 15:55:11.089899 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.140
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.141
+W1121 15:55:11.089998 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.141
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.142
+W1121 15:55:11.090097 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.142
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.143
+W1121 15:55:11.090195 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.143
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.144
+W1121 15:55:11.090300 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.144
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.145
+W1121 15:55:11.090399 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.145
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.146
+W1121 15:55:11.090497 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.146
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.147
+W1121 15:55:11.090596 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.147
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.148
+W1121 15:55:11.090694 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.148
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.149
+W1121 15:55:11.090792 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.149
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.150
+W1121 15:55:11.090891 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.150
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.151
+W1121 15:55:11.090990 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.151
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.152
+W1121 15:55:11.091089 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.152
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.153
+W1121 15:55:11.091188 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.153
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.154
+W1121 15:55:11.091287 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.154
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.155
+W1121 15:55:11.091386 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.155
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.156
+W1121 15:55:11.091485 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.156
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.157
+W1121 15:55:11.091583 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.157
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.158
+W1121 15:55:11.091682 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.158
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.159
+W1121 15:55:11.091781 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.159
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.160
+W1121 15:55:11.091880 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.160
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.161
+W1121 15:55:11.091979 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.161
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.162
+W1121 15:55:11.092077 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.162
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.163
+W1121 15:55:11.092175 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.163
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.164
+W1121 15:55:11.092274 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.164
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.165
+W1121 15:55:11.092373 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.165
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.166
+W1121 15:55:11.092471 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.166
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.167
+W1121 15:55:11.092569 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.167
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.168
+W1121 15:55:11.092666 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.168
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.169
+W1121 15:55:11.092764 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.169
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.170
+W1121 15:55:11.092864 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.170
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.171
+W1121 15:55:11.092962 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.171
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.172
+W1121 15:55:11.093062 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.172
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.173
+W1121 15:55:11.093160 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.173
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.174
+W1121 15:55:11.093258 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.174
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.175
+W1121 15:55:11.093357 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.175
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.176
+W1121 15:55:11.093456 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.176
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.177
+W1121 15:55:11.093554 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.177
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.178
+W1121 15:55:11.093652 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.178
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.179
+W1121 15:55:11.093751 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.179
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.180
+W1121 15:55:11.093849 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.180
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.181
+W1121 15:55:11.093950 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.181
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.182
+W1121 15:55:11.094049 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.182
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.183
+W1121 15:55:11.094148 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.183
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.184
+W1121 15:55:11.094247 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.184
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.185
+W1121 15:55:11.094349 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'm' for (root).model._all_trainable_variables.185
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.0
+W1121 15:55:11.094447 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.0
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.1
+W1121 15:55:11.094547 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.2
+W1121 15:55:11.094645 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.3
+W1121 15:55:11.094744 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.3
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.4
+W1121 15:55:11.094844 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.4
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.5
+W1121 15:55:11.094943 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.5
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.6
+W1121 15:55:11.095041 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.6
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.7
+W1121 15:55:11.095141 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.7
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.8
+W1121 15:55:11.095239 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.8
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.9
+W1121 15:55:11.095337 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.9
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.10
+W1121 15:55:11.095441 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.10
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.11
+W1121 15:55:11.095553 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.11
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.12
+W1121 15:55:11.095663 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.12
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.13
+W1121 15:55:11.095773 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.13
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.14
+W1121 15:55:11.095883 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.14
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.15
+W1121 15:55:11.095993 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.15
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.16
+W1121 15:55:11.096101 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.16
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.17
+W1121 15:55:11.096210 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.17
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.18
+W1121 15:55:11.096319 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.18
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.19
+W1121 15:55:11.096429 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.19
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.20
+W1121 15:55:11.096538 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.20
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.21
+W1121 15:55:11.096647 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.21
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.22
+W1121 15:55:11.096766 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.22
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.23
+W1121 15:55:11.096905 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.23
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.24
+W1121 15:55:11.097014 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.24
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.25
+W1121 15:55:11.097114 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.25
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.26
+W1121 15:55:11.097213 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.26
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.27
+W1121 15:55:11.097312 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.27
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.28
+W1121 15:55:11.097411 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.28
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.29
+W1121 15:55:11.097510 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.29
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.30
+W1121 15:55:11.097609 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.30
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.31
+W1121 15:55:11.097707 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.31
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.32
+W1121 15:55:11.097807 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.32
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.33
+W1121 15:55:11.097905 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.33
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.34
+W1121 15:55:11.098003 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.34
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.35
+W1121 15:55:11.098102 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.35
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.36
+W1121 15:55:11.098200 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.36
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.37
+W1121 15:55:11.098315 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.37
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.38
+W1121 15:55:11.098416 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.38
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.39
+W1121 15:55:11.098515 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.39
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.40
+W1121 15:55:11.098614 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.40
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.41
+W1121 15:55:11.098712 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.41
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.42
+W1121 15:55:11.098811 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.42
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.43
+W1121 15:55:11.098909 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.43
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.44
+W1121 15:55:11.099007 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.44
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.45
+W1121 15:55:11.099105 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.45
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.46
+W1121 15:55:11.099203 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.46
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.47
+W1121 15:55:11.099301 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.47
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.48
+W1121 15:55:11.099399 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.48
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.49
+W1121 15:55:11.099498 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.49
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.50
+W1121 15:55:11.099596 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.50
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.51
+W1121 15:55:11.099695 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.51
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.52
+W1121 15:55:11.099793 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.52
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.53
+W1121 15:55:11.099891 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.53
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.54
+W1121 15:55:11.099990 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.54
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.55
+W1121 15:55:11.100089 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.55
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.56
+W1121 15:55:11.100219 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.56
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.57
+W1121 15:55:11.100378 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.57
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.58
+W1121 15:55:11.100492 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.58
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.59
+W1121 15:55:11.100592 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.59
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.60
+W1121 15:55:11.100692 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.60
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.61
+W1121 15:55:11.100791 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.61
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.62
+W1121 15:55:11.100890 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.62
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.63
+W1121 15:55:11.100990 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.63
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.64
+W1121 15:55:11.101105 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.64
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.65
+W1121 15:55:11.101204 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.65
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.66
+W1121 15:55:11.101323 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.66
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.67
+W1121 15:55:11.101423 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.67
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.68
+W1121 15:55:11.101523 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.68
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.69
+W1121 15:55:11.101622 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.69
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.70
+W1121 15:55:11.101720 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.70
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.71
+W1121 15:55:11.101819 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.71
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.72
+W1121 15:55:11.101918 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.72
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.73
+W1121 15:55:11.102016 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.73
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.74
+W1121 15:55:11.102178 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.74
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.75
+W1121 15:55:11.102293 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.75
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.76
+W1121 15:55:11.102395 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.76
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.77
+W1121 15:55:11.102494 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.77
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.78
+W1121 15:55:11.102592 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.78
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.79
+W1121 15:55:11.102691 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.79
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.80
+W1121 15:55:11.102790 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.80
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.81
+W1121 15:55:11.102887 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.81
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.82
+W1121 15:55:11.102997 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.82
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.83
+W1121 15:55:11.103108 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.83
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.84
+W1121 15:55:11.103206 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.84
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.85
+W1121 15:55:11.103304 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.85
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.86
+W1121 15:55:11.103403 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.86
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.87
+W1121 15:55:11.103502 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.87
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.88
+W1121 15:55:11.103600 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.88
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.89
+W1121 15:55:11.103698 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.89
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.90
+W1121 15:55:11.103853 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.90
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.91
+W1121 15:55:11.104012 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.91
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.92
+W1121 15:55:11.104175 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.92
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.93
+W1121 15:55:11.104324 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.93
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.94
+W1121 15:55:11.104459 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.94
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.95
+W1121 15:55:11.104592 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.95
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.96
+W1121 15:55:11.104727 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.96
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.97
+W1121 15:55:11.104870 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.97
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.98
+W1121 15:55:11.105015 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.98
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.99
+W1121 15:55:11.105162 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.99
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.100
+W1121 15:55:11.105306 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.100
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.101
+W1121 15:55:11.105452 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.101
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.102
+W1121 15:55:11.105597 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.102
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.103
+W1121 15:55:11.105736 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.103
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.104
+W1121 15:55:11.105882 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.104
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.105
+W1121 15:55:11.106026 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.105
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.106
+W1121 15:55:11.106167 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.106
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.107
+W1121 15:55:11.106303 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.107
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.108
+W1121 15:55:11.106438 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.108
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.109
+W1121 15:55:11.106577 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.109
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.110
+W1121 15:55:11.106714 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.110
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.111
+W1121 15:55:11.106851 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.111
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.112
+W1121 15:55:11.106985 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.112
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.113
+W1121 15:55:11.107117 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.113
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.114
+W1121 15:55:11.107258 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.114
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.115
+W1121 15:55:11.107389 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.115
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.116
+W1121 15:55:11.107522 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.116
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.117
+W1121 15:55:11.107655 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.117
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.118
+W1121 15:55:11.107787 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.118
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.119
+W1121 15:55:11.107921 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.119
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.120
+W1121 15:55:11.108055 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.120
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.121
+W1121 15:55:11.108188 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.121
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.122
+W1121 15:55:11.108321 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.122
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.123
+W1121 15:55:11.108454 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.123
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.124
+W1121 15:55:11.108587 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.124
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.125
+W1121 15:55:11.108720 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.125
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.126
+W1121 15:55:11.108853 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.126
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.127
+W1121 15:55:11.108984 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.127
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.128
+W1121 15:55:11.109115 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.128
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.129
+W1121 15:55:11.109248 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.129
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.130
+W1121 15:55:11.109381 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.130
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.131
+W1121 15:55:11.109513 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.131
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.132
+W1121 15:55:11.109646 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.132
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.133
+W1121 15:55:11.109778 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.133
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.134
+W1121 15:55:11.109912 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.134
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.135
+W1121 15:55:11.110046 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.135
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.136
+W1121 15:55:11.110178 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.136
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.137
+W1121 15:55:11.110318 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.137
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.138
+W1121 15:55:11.110453 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.138
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.139
+W1121 15:55:11.110586 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.139
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.140
+W1121 15:55:11.110720 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.140
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.141
+W1121 15:55:11.110851 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.141
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.142
+W1121 15:55:11.110984 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.142
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.143
+W1121 15:55:11.111116 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.143
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.144
+W1121 15:55:11.111244 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.144
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.145
+W1121 15:55:11.111369 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.145
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.146
+W1121 15:55:11.111498 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.146
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.147
+W1121 15:55:11.111627 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.147
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.148
+W1121 15:55:11.111755 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.148
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.149
+W1121 15:55:11.111884 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.149
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.150
+W1121 15:55:11.112014 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.150
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.151
+W1121 15:55:11.112145 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.151
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.152
+W1121 15:55:11.112274 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.152
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.153
+W1121 15:55:11.112404 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.153
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.154
+W1121 15:55:11.112530 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.154
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.155
+W1121 15:55:11.112657 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.155
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.156
+W1121 15:55:11.112785 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.156
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.157
+W1121 15:55:11.112914 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.157
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.158
+W1121 15:55:11.113042 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.158
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.159
+W1121 15:55:11.113183 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.159
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.160
+W1121 15:55:11.113335 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.160
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.161
+W1121 15:55:11.113450 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.161
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.162
+W1121 15:55:11.113560 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.162
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.163
+W1121 15:55:11.113670 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.163
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.164
+W1121 15:55:11.113780 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.164
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.165
+W1121 15:55:11.113889 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.165
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.166
+W1121 15:55:11.114000 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.166
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.167
+W1121 15:55:11.114106 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.167
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.168
+W1121 15:55:11.114205 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.168
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.169
+W1121 15:55:11.114309 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.169
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.170
+W1121 15:55:11.114407 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.170
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.171
+W1121 15:55:11.114506 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.171
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.172
+W1121 15:55:11.114606 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.172
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.173
+W1121 15:55:11.114704 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.173
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.174
+W1121 15:55:11.114802 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.174
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.175
+W1121 15:55:11.114901 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.175
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.176
+W1121 15:55:11.115000 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.176
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.177
+W1121 15:55:11.115098 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.177
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.178
+W1121 15:55:11.115196 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.178
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.179
+W1121 15:55:11.115293 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.179
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.180
+W1121 15:55:11.115391 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.180
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.181
+W1121 15:55:11.115489 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.181
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.182
+W1121 15:55:11.115588 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.182
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.183
+W1121 15:55:11.115685 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.183
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.184
+W1121 15:55:11.115784 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.184
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.185
+W1121 15:55:11.115883 140569928962432 checkpoint.py:213] Value in checkpoint could not be found in the restored object: (root).model.optimizer's state 'v' for (root).model._all_trainable_variables.185
+
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+
+ModelsTest.test_train_eval
+
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 101, in test_train_eval
+    ckpt_p = model.write_ckpt(args.write_ckpt_dir, step=epoch)
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 65, in _restore_evaluate
+    _, metrics = test_step(img0,gt,img1,0.5)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 963, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 785, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2523, in _get_concrete_function_internal_garbage_collected
+    graph_function, _ = self._maybe_define_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2760, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2670, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1247, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 677, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1233, in autograph_handler
+    raise e.ag_error_metadata.to_exception(e)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1222, in autograph_handler
+    return autograph.converted_call(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 439, in converted_call
+    result = converted_f(*effective_args, **kwargs)
+TypeError: in user code:
+
+    TypeError: tf__load_ckpt() takes from 1 to 2 positional arguments but 5 were given
+
+----------------------------------------------------------------------
+
+
+Ran 2 tests in 1610.892s
+FAILED
+
+ (errors=1, skipped=1)

@@ -1,0 +1,93 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                      | 0/81 [00:00<?, ?batch/s]
+resume /home/jmw/ing/myfi/vfi/ckpt
+
+
+
+
+
+
+
+
+
+
+
+
+ 16%|█████████████▋                                                                       | 13/81 [00:54<04:46,  4.22s/batch, epoch=0, loss=6.72, mse=441, psnr=24.6]
+Traceback (most recent call last):
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 106, in <module>
+    tf.test.main()
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/test.py", line 56, in main
+    return _googletest.main(argv)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 62, in main
+    benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/benchmark.py", line 503, in benchmarks_main
+    true_main()
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 60, in main_wrapper
+    return app.run(main=g_main, argv=args)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 51, in g_main
+    absltest_main(argv=argv)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2051, in main
+    _run_in_app(run_tests, args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2146, in _run_in_app
+    function(argv, args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2549, in run_tests
+    result = _run_and_get_tests_result(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2518, in _run_and_get_tests_result
+    test_program = unittest.TestProgram(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/main.py", line 101, in __init__
+    self.runTests()
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/_pretty_print_reporter.py", line 82, in run
+    return super(TextTestRunner, self).run(test)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/runner.py", line 184, in run
+    test(result)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 122, in run
+    test(result)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 122, in run
+    test(result)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 92, in test_train_eval
+    gt = tf.cast(gt/255.0, dtype=tf.float32)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1176, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/math_ops.py", line 1001, in cast
+    x = ops.convert_to_tensor(x, name="x")
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/profiler/trace.py", line 183, in wrapped
+    return func(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/ops.py", line 1638, in convert_to_tensor
+    ret = conversion_func(value, dtype=dtype, name=name, as_ref=as_ref)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/tensor_conversion_registry.py", line 48, in _default_conversion_function
+    return constant_op.constant(value, dtype, name=name)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 267, in constant
+    return _constant_impl(value, dtype, shape, name, verify_shape=False,
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 279, in _constant_impl
+    return _constant_eager_impl(ctx, value, dtype, shape, verify_shape)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 304, in _constant_eager_impl
+    t = convert_to_eager_tensor(value, ctx, dtype)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/constant_op.py", line 102, in convert_to_eager_tensor
+    return ops.EagerTensor(value, ctx.device_name, dtype)
+KeyboardInterrupt

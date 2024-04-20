@@ -1,0 +1,62 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                                  | 0/802 [00:00<?, ?batch/s]
+<options.Options object at 0x7f5ed0e42c40>
+<options.Options object at 0x7f5ed0e42c40>
+<options.Options object at 0x7f5ed0e42c40>
+<options.Options object at 0x7f5ed0e42c40>
+<options.Options object at 0x7f5ed0e42c40>
+  0%|                                                                                                                                                  | 0/802 [00:03<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 3.99s
+I1121 19:21:22.703750 140048075231616 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 3.99s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/my_film/src/models_test.py", line 94, in test_train_eval
+    metrics=train_step(img0,gt,img1)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 963, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 785, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2523, in _get_concrete_function_internal_garbage_collected
+    graph_function, _ = self._maybe_define_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2760, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2670, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1247, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 677, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1233, in autograph_handler
+    raise e.ag_error_metadata.to_exception(e)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 1222, in autograph_handler
+    return autograph.converted_call(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 439, in converted_call
+    result = converted_f(*effective_args, **kwargs)
+  File "/tmp/__autograph_generated_file0kg9wz5s.py", line 13, in tf__train_step
+    var_list = ag__.ld(self).all_trainable_variables
+  File "/home/jmw/ing/myfi/my_film/src/model.py", line 78, in all_trainable_variables
+    self._all_trainable_variables = list(self._iter_trainable_variables())
+  File "/home/jmw/ing/myfi/my_film/src/model.py", line 71, in _iter_trainable_variables
+    yield from ensure_nonempty(self.self.extract.trainable_variables)
+AttributeError: in user code:
+    File "/home/jmw/ing/myfi/my_film/src/model.py", line 88, in train_step  *
+        var_list = self.all_trainable_variables
+    File "/home/jmw/ing/myfi/my_film/src/model.py", line 78, in all_trainable_variables
+        self._all_trainable_variables = list(self._iter_trainable_variables())
+    File "/home/jmw/ing/myfi/my_film/src/model.py", line 71, in _iter_trainable_variables
+        yield from ensure_nonempty(self.self.extract.trainable_variables)
+    AttributeError: 'Model' object has no attribute 'self'
+----------------------------------------------------------------------
+Ran 2 tests in 3.993s
+FAILED (errors=1, skipped=1)

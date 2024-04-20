@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 34, in <module>
+    parser.add_argument('--resume' , default=None , type = str, help= 'resume path')
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1441, in add_argument
+    return self._add_action(action)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1806, in _add_action
+    self._optionals._add_action(action)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1643, in _add_action
+    action = super(_ArgumentGroup, self)._add_action(action)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1455, in _add_action
+    self._check_conflict(action)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1592, in _check_conflict
+    conflict_handler(action, confl_optionals)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/argparse.py", line 1601, in _handle_conflict_error
+    raise ArgumentError(action, message % conflict_string)
+argparse.ArgumentError: argument --resume: conflicting option string: --resume

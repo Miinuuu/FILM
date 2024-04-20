@@ -1,0 +1,768 @@
+2023-11-21 18:07:44,199 INFO    StreamThr :558449 [internal.py:wandb_internal():86] W&B internal server running at pid: 558449, started at: 2023-11-21 18:07:44.198959
+2023-11-21 18:07:44,200 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status
+2023-11-21 18:07:44,201 INFO    WriterThread:558449 [datastore.py:open_for_write():85] open: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/run-womjjngf.wandb
+2023-11-21 18:07:44,201 DEBUG   SenderThread:558449 [sender.py:send():380] send: header
+2023-11-21 18:07:44,211 DEBUG   SenderThread:558449 [sender.py:send():380] send: run
+2023-11-21 18:07:44,765 INFO    SenderThread:558449 [dir_watcher.py:__init__():211] watching files in: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files
+2023-11-21 18:07:44,765 INFO    SenderThread:558449 [sender.py:_start_run_threads():1124] run started: womjjngf with start time 1700557664.198896
+2023-11-21 18:07:44,768 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: check_version
+2023-11-21 18:07:44,768 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: check_version
+2023-11-21 18:07:44,819 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: run_start
+2023-11-21 18:07:44,823 DEBUG   HandlerThread:558449 [system_info.py:__init__():32] System info init
+2023-11-21 18:07:44,823 DEBUG   HandlerThread:558449 [system_info.py:__init__():47] System info init done
+2023-11-21 18:07:44,823 INFO    HandlerThread:558449 [system_monitor.py:start():194] Starting system monitor
+2023-11-21 18:07:44,823 INFO    SystemMonitor:558449 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-21 18:07:44,824 INFO    HandlerThread:558449 [system_monitor.py:probe():214] Collecting system info
+2023-11-21 18:07:44,824 INFO    SystemMonitor:558449 [interfaces.py:start():190] Started cpu monitoring
+2023-11-21 18:07:44,824 INFO    SystemMonitor:558449 [interfaces.py:start():190] Started disk monitoring
+2023-11-21 18:07:44,825 INFO    SystemMonitor:558449 [interfaces.py:start():190] Started gpu monitoring
+2023-11-21 18:07:44,825 INFO    SystemMonitor:558449 [interfaces.py:start():190] Started memory monitoring
+2023-11-21 18:07:44,825 INFO    SystemMonitor:558449 [interfaces.py:start():190] Started network monitoring
+2023-11-21 18:07:44,853 DEBUG   HandlerThread:558449 [system_info.py:probe():196] Probing system
+2023-11-21 18:07:44,857 DEBUG   HandlerThread:558449 [system_info.py:_probe_git():181] Probing git
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_info.py:_probe_git():189] Probing git done
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_info.py:probe():244] Probing system done
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2023-11-21T09:07:44.853276', 'startedAt': '2023-11-21T09:07:44.196382', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jmw/ing/myfi/vfi/src/models_test.py', 'codePathLocal': 'models_test.py', 'codePath': 'vfi/src/models_test.py', 'git': {'remote': 'https://github.com/Miinuuu/myfi.git', 'commit': 'b26010ce32b1ffce1dd932143c7912c26b2dbeb4'}, 'email': 'jeongminwu@gmail.com', 'root': '/home/jmw/ing/myfi', 'host': 'lab-com', 'username': 'jmw', 'executable': '/home/jmw/anaconda3/envs/vct_tf/bin/python', 'cpu_count': 10, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3755.8523499999997, 'min': 800.0, 'max': 5300.0}, 'cpu_freq_per_core': [{'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 4817.047, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}, {'current': 3700.0, 'min': 800.0, 'max': 5300.0}], 'disk': {'/': {'total': 1832.6994018554688, 'used': 1387.2644157409668}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 62.64297866821289}}
+2023-11-21 18:07:44,865 INFO    HandlerThread:558449 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-21 18:07:44,865 INFO    HandlerThread:558449 [system_monitor.py:probe():227] Publishing system info
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-21 18:07:44,865 DEBUG   HandlerThread:558449 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-21 18:07:45,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/requirements.txt
+2023-11-21 18:07:45,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/conda-environment.yaml
+2023-11-21 18:07:46,411 DEBUG   HandlerThread:558449 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-21 18:07:46,411 INFO    HandlerThread:558449 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-21 18:07:46,415 DEBUG   SenderThread:558449 [sender.py:send():380] send: files
+2023-11-21 18:07:46,415 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-21 18:07:46,419 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:07:46,419 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:07:46,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:07:46,756 DEBUG   SenderThread:558449 [sender.py:send():380] send: telemetry
+2023-11-21 18:07:46,765 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/conda-environment.yaml
+2023-11-21 18:07:46,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:07:46,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-metadata.json
+2023-11-21 18:07:47,339 DEBUG   SenderThread:558449 [sender.py:send():380] send: telemetry
+2023-11-21 18:07:47,937 INFO    wandb-upload_0:558449 [upload_job.py:push():131] Uploaded file /tmp/tmpfoil_a2jwandb/54e9tnx8-wandb-metadata.json
+2023-11-21 18:07:48,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:07:49,340 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:07:49,766 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:07:54,341 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:07:59,342 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:01,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:08:01,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:08:01,421 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:08:04,646 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:09,646 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:14,649 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:15,770 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/config.yaml
+2023-11-21 18:08:16,419 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:08:16,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:08:16,462 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:08:17,934 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:17,935 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:17,935 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:17,936 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:18,771 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:19,744 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:19,745 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:19,745 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:19,745 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:19,771 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:19,771 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:20,745 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:21,593 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:21,594 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:21,594 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:21,594 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:21,772 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:21,772 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:23,448 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:23,449 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:23,449 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:23,449 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:23,772 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:23,772 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:25,316 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:25,316 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:25,316 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:25,316 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:25,772 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:25,773 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:26,317 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:27,194 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:27,195 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:27,195 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:27,195 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:27,773 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:27,773 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:29,111 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:29,112 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:29,112 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:29,112 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:29,773 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:29,774 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:31,018 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:31,018 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:31,019 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:31,019 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:31,419 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:08:31,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:08:31,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:08:31,670 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:31,774 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:31,774 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:32,962 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:32,962 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:32,962 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:32,963 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:33,775 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:33,776 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:34,826 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:34,827 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:34,827 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:34,827 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:35,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:35,778 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:36,719 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:36,720 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:36,720 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:36,720 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:36,720 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:36,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:37,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:38,620 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:38,621 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:38,621 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:38,621 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:38,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:39,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:40,493 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:40,493 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:40,493 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:40,494 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:40,777 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:41,778 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:42,398 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:42,399 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:42,399 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:42,399 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:42,399 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:42,778 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:43,778 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:44,287 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:44,288 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:44,288 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:44,288 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:44,778 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:44,826 DEBUG   SystemMonitor:558449 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-21 18:08:44,826 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:08:45,779 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:46,196 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:46,197 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:46,197 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:46,197 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:46,419 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:08:46,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:08:46,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:08:46,779 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:47,661 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:47,779 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:48,126 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:48,126 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:48,127 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:48,127 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:48,779 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:49,779 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:49,950 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:49,951 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:49,951 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:49,951 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:50,780 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:51,780 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:51,859 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:51,860 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:51,860 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:51,860 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:52,780 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:52,861 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:53,780 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:53,788 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:53,788 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:53,788 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:53,788 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:54,782 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:55,695 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:55,695 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:55,695 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:55,696 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:55,782 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:55,782 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:57,611 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:57,611 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:57,611 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:57,612 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:57,782 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:57,782 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:08:58,613 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:08:59,512 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:08:59,513 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:08:59,513 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:08:59,513 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:08:59,783 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:08:59,783 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:01,390 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:01,390 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:01,390 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:01,391 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:01,419 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:09:01,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:09:01,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:09:01,783 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:01,783 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:03,326 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:03,326 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:03,327 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:03,327 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:03,784 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:03,784 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:04,327 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:05,170 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:05,171 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:05,171 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:05,171 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:05,784 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:05,784 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:07,077 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:07,078 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:07,078 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:07,078 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:07,785 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:07,785 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:08,958 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:08,959 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:08,959 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:08,959 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:09,785 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:09,785 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:09,961 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:10,829 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:10,830 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:10,830 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:10,830 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:11,785 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:11,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:12,720 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:12,721 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:12,721 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:12,721 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:12,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:13,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:14,626 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:14,626 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:14,626 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:14,627 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:14,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:14,827 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:09:15,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:15,827 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:16,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:09:16,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:09:16,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:09:16,546 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:16,724 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:16,725 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:16,725 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:16,786 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:17,787 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:18,417 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:18,418 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:18,418 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:18,418 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:18,787 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:19,787 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:20,293 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:20,293 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:20,294 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:20,294 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:20,787 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:21,295 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:21,788 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:22,155 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:22,161 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:22,161 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:22,162 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:22,788 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:23,788 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:24,033 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:24,033 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:24,033 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:24,033 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:24,788 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:25,788 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:25,904 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:25,904 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:25,904 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:25,905 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:26,789 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:26,905 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:27,785 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:27,785 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:27,785 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:27,786 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:27,789 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:27,789 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:29,671 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:29,672 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:29,672 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:29,672 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:29,790 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:29,790 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:31,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:09:31,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:09:31,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:09:31,602 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:31,615 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:31,616 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:31,616 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:31,790 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:31,791 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:32,616 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:33,494 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:33,495 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:33,495 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:33,495 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:33,791 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:33,791 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:35,361 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:35,361 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:35,361 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:35,361 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:35,791 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:35,792 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:37,259 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:37,259 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:37,259 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:37,260 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:37,792 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:37,792 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:38,261 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:39,151 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:39,152 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:39,152 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:39,152 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:39,792 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:39,793 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:41,049 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:41,049 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:41,049 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:41,049 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:41,793 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:41,793 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:42,934 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:42,935 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:42,935 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:42,935 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:43,795 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:43,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:43,936 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:44,826 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:44,827 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:44,827 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:44,828 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:44,828 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:09:45,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:45,797 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:46,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:09:46,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:09:46,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:09:46,766 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:46,766 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:46,767 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:46,767 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:46,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:47,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:48,602 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:48,602 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:48,602 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:48,603 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:48,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:49,604 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:49,796 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:50,497 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:50,498 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:50,498 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:50,498 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:50,797 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:51,797 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:52,381 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:52,381 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:52,381 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:52,382 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:52,797 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:53,797 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:54,253 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:54,254 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:54,254 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:54,254 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:54,798 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:55,255 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:09:55,798 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:56,112 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:56,112 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:56,112 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:56,113 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:56,798 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:57,798 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:57,995 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:57,995 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:57,995 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:57,995 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:09:58,798 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:09:59,799 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:09:59,894 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:09:59,895 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:09:59,895 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:09:59,895 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:00,799 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:00,896 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:01,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:10:01,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:10:01,422 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:10:01,799 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:01,814 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:01,814 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:01,814 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:01,815 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:02,799 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:03,639 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:03,639 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:03,639 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:03,640 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:03,800 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:03,800 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:05,515 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:05,515 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:05,515 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:05,516 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:05,800 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:05,800 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:06,517 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:07,395 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:07,395 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:07,395 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:07,395 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:07,800 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:07,801 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:09,280 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:09,280 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:09,280 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:09,280 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:09,801 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:09,801 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:11,156 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:11,156 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:11,156 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:11,157 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:11,801 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:11,801 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:12,158 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:13,051 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:13,052 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:13,052 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:13,052 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:13,802 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:13,802 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:14,828 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:10:14,953 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:14,954 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:14,954 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:14,954 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:15,803 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:15,804 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:16,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:10:16,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:10:16,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:10:16,874 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:16,874 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:16,875 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:16,875 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:17,805 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:17,806 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:17,875 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:18,735 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:18,736 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:18,736 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:18,736 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:18,805 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:19,805 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:20,632 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:20,633 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:20,633 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:20,633 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:20,805 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:21,805 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:22,505 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:22,505 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:22,505 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:22,505 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:22,806 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:23,506 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:23,806 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:24,390 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:24,391 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:24,391 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:24,391 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:24,806 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:25,806 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:26,256 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:26,257 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:26,257 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:26,257 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:26,807 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:27,807 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:28,124 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:28,124 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:28,124 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:28,125 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:28,807 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:29,126 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:29,807 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:30,033 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:30,033 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:30,033 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:30,034 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:30,807 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:31,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:10:31,420 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:10:31,422 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:10:31,808 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:31,982 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:31,982 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:31,982 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:31,983 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:32,809 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:33,811 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:33,838 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:33,838 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:33,838 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:33,838 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:34,812 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:34,840 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:35,744 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:35,744 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:35,744 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:35,744 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:35,812 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:35,812 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:37,655 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:37,655 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:37,655 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:37,655 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:37,813 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:37,813 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:39,547 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:39,548 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:39,548 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:39,548 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:39,813 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:39,813 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:40,549 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:41,433 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:41,433 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:41,433 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:41,433 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:41,814 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:41,814 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:43,326 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:43,326 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:43,326 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:43,326 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:43,814 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:43,814 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:44,828 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:10:45,213 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:45,213 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:45,213 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:45,213 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:45,814 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:45,815 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:46,215 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:46,420 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 18:10:46,421 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 18:10:46,421 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:10:47,162 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:47,162 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:47,163 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:47,163 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:47,815 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:47,815 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:49,018 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:49,019 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:49,019 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:49,019 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:49,815 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:49,815 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:50,908 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:50,908 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:50,908 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:50,909 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:51,816 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:51,816 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:51,910 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:52,813 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:52,813 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:52,813 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:52,813 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:52,816 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:53,818 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:54,716 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:54,716 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:54,716 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:54,717 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:54,818 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:55,818 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:56,604 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 18:10:56,605 DEBUG   SenderThread:558449 [sender.py:send():380] send: history
+2023-11-21 18:10:56,605 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 18:10:56,605 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:56,818 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:57,101 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:57,108 DEBUG   SenderThread:558449 [sender.py:send():380] send: exit
+2023-11-21 18:10:57,108 INFO    SenderThread:558449 [sender.py:send_exit():585] handling exit code: 255
+2023-11-21 18:10:57,108 INFO    SenderThread:558449 [sender.py:send_exit():587] handling runtime: 192
+2023-11-21 18:10:57,108 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:57,109 INFO    SenderThread:558449 [sender.py:send_exit():593] send defer
+2023-11-21 18:10:57,109 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,109 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-21 18:10:57,109 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,109 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-21 18:10:57,109 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 1
+2023-11-21 18:10:57,109 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,109 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-21 18:10:57,109 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,109 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-21 18:10:57,109 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 2
+2023-11-21 18:10:57,109 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,109 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-21 18:10:57,109 INFO    HandlerThread:558449 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-21 18:10:57,109 DEBUG   SystemMonitor:558449 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-21 18:10:57,109 INFO    HandlerThread:558449 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-21 18:10:57,110 DEBUG   SystemMonitor:558449 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-21 18:10:57,110 INFO    HandlerThread:558449 [interfaces.py:finish():202] Joined disk monitor
+2023-11-21 18:10:57,137 INFO    HandlerThread:558449 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-21 18:10:57,137 INFO    HandlerThread:558449 [interfaces.py:finish():202] Joined memory monitor
+2023-11-21 18:10:57,137 INFO    HandlerThread:558449 [interfaces.py:finish():202] Joined network monitor
+2023-11-21 18:10:57,137 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,137 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-21 18:10:57,137 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 3
+2023-11-21 18:10:57,137 DEBUG   SenderThread:558449 [sender.py:send():380] send: stats
+2023-11-21 18:10:57,137 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,137 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-21 18:10:57,137 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,138 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-21 18:10:57,138 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 4
+2023-11-21 18:10:57,138 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,138 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-21 18:10:57,138 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,138 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-21 18:10:57,138 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 5
+2023-11-21 18:10:57,138 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,138 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-21 18:10:57,138 DEBUG   SenderThread:558449 [sender.py:send():380] send: summary
+2023-11-21 18:10:57,138 INFO    SenderThread:558449 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 18:10:57,139 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,139 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-21 18:10:57,139 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 6
+2023-11-21 18:10:57,139 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,139 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-21 18:10:57,139 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,139 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-21 18:10:57,139 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 7
+2023-11-21 18:10:57,139 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:10:57,139 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:57,139 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-21 18:10:57,139 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:57,139 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-21 18:10:57,819 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:10:57,820 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:10:58,109 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-21 18:10:59,534 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 8
+2023-11-21 18:10:59,535 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: poll_exit
+2023-11-21 18:10:59,536 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:59,536 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-21 18:10:59,537 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:10:59,537 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-21 18:10:59,537 INFO    SenderThread:558449 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-21 18:10:59,538 INFO    SenderThread:558449 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-21 18:10:59,558 INFO    SenderThread:558449 [job_builder.py:build():404] adding wandb-job metadata file
+2023-11-21 18:10:59,565 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 9
+2023-11-21 18:10:59,566 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:10:59,566 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-21 18:10:59,566 DEBUG   SenderThread:558449 [sender.py:send():380] send: artifact
+2023-11-21 18:10:59,820 INFO    Thread-12 :558449 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:11:00,691 INFO    SenderThread:558449 [sender.py:send_artifact():1458] sent artifact job-https___github.com_Miinuuu_myfi.git_vfi_src_models_test.py - {'id': 'QXJ0aWZhY3Q6NjQ0MzM0Mzg2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNzM5ODc2Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjQ0MzM0Mzg2', 'versionIndex': 1}}}
+2023-11-21 18:11:00,691 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:00,691 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-21 18:11:00,691 INFO    SenderThread:558449 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-21 18:11:00,822 INFO    SenderThread:558449 [dir_watcher.py:finish():388] scan: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files
+2023-11-21 18:11:00,823 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-metadata.json wandb-metadata.json
+2023-11-21 18:11:00,823 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/requirements.txt requirements.txt
+2023-11-21 18:11:00,823 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json wandb-summary.json
+2023-11-21 18:11:00,824 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/conda-environment.yaml conda-environment.yaml
+2023-11-21 18:11:00,824 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log output.log
+2023-11-21 18:11:00,825 INFO    SenderThread:558449 [dir_watcher.py:finish():402] scan save: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/config.yaml config.yaml
+2023-11-21 18:11:00,831 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 10
+2023-11-21 18:11:00,832 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:11:00,832 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-21 18:11:00,841 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:00,841 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-21 18:11:00,848 INFO    SenderThread:558449 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-21 18:11:01,383 INFO    wandb-upload_2:558449 [upload_job.py:push():131] Uploaded file /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/wandb-summary.json
+2023-11-21 18:11:01,553 INFO    wandb-upload_1:558449 [upload_job.py:push():131] Uploaded file /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/requirements.txt
+2023-11-21 18:11:01,620 INFO    wandb-upload_0:558449 [upload_job.py:push():131] Uploaded file /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/output.log
+2023-11-21 18:11:01,632 INFO    wandb-upload_4:558449 [upload_job.py:push():131] Uploaded file /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/config.yaml
+2023-11-21 18:11:01,677 INFO    wandb-upload_3:558449 [upload_job.py:push():131] Uploaded file /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/files/conda-environment.yaml
+2023-11-21 18:11:01,877 INFO    Thread-11 :558449 [sender.py:transition_state():613] send defer: 11
+2023-11-21 18:11:01,878 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:11:01,878 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-21 18:11:01,879 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:01,880 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-21 18:11:01,880 INFO    SenderThread:558449 [file_pusher.py:join():181] waiting for file pusher
+2023-11-21 18:11:01,880 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 12
+2023-11-21 18:11:01,880 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:11:01,880 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-21 18:11:01,881 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:01,881 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-21 18:11:01,882 INFO    SenderThread:558449 [file_stream.py:finish():595] file stream finish called
+2023-11-21 18:11:02,831 INFO    SenderThread:558449 [file_stream.py:finish():599] file stream finish is done
+2023-11-21 18:11:02,832 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 13
+2023-11-21 18:11:02,832 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:11:02,833 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-21 18:11:02,833 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 18:11:02,834 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:02,834 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-21 18:11:02,834 INFO    SenderThread:558449 [sender.py:transition_state():613] send defer: 14
+2023-11-21 18:11:02,835 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 18:11:02,835 INFO    HandlerThread:558449 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-21 18:11:02,836 DEBUG   SenderThread:558449 [sender.py:send():380] send: final
+2023-11-21 18:11:02,837 DEBUG   SenderThread:558449 [sender.py:send():380] send: footer
+2023-11-21 18:11:02,837 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: defer
+2023-11-21 18:11:02,837 INFO    SenderThread:558449 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-21 18:11:02,838 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-21 18:11:02,839 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: poll_exit
+2023-11-21 18:11:02,841 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: server_info
+2023-11-21 18:11:02,841 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: server_info
+2023-11-21 18:11:02,847 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-21 18:11:02,847 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-21 18:11:02,848 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 18:11:02,848 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: job_info
+2023-11-21 18:11:03,048 DEBUG   SenderThread:558449 [sender.py:send_request():407] send_request: job_info
+2023-11-21 18:11:03,049 INFO    MainThread:558449 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-21 18:11:03,050 INFO    MainThread:558449 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-21 18:11:03,051 INFO    MainThread:558449 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-21 18:11:03,052 DEBUG   HandlerThread:558449 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-21 18:11:03,052 INFO    HandlerThread:558449 [handler.py:finish():866] shutting down handler
+2023-11-21 18:11:03,848 INFO    WriterThread:558449 [datastore.py:close():294] close: /home/jmw/ing/myfi/vfi/src/wandb/run-20231121_180744-womjjngf/run-womjjngf.wandb
+2023-11-21 18:11:04,049 INFO    SenderThread:558449 [sender.py:finish():1536] shutting down sender
+2023-11-21 18:11:04,049 INFO    SenderThread:558449 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-21 18:11:04,049 INFO    SenderThread:558449 [file_pusher.py:join():181] waiting for file pusher

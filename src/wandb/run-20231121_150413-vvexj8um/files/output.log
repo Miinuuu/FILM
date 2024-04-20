@@ -1,0 +1,144 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 119/119 [03:40<00:00,  1.85s/batch, epoch=0, loss=0.566, mse=355, psnr=25.7]
+Creates a checkpoint at/home/jmw/ing/myfi/vfi/ckptfor0
+  0%|                                                                                                                                                              | 0/3782 [00:00<?, ?batch/s]
+  0%|                                                                                                                                                              | 0/3782 [00:00<?, ?batch/s]WARNING:tensorflow:5 out of the last 11 calls to <function warp at 0x7fb34aee7670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+W1121 15:08:00.884586 140410900119936 def_function.py:148] 5 out of the last 11 calls to <function warp at 0x7fb34aee7670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 13 calls to <function warp at 0x7fb34aee7670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+W1121 15:08:01.021312 140410900119936 def_function.py:148] 6 out of the last 13 calls to <function warp at 0x7fb34aee7670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+  0%|                                                                                                                                                              | 0/3782 [00:02<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 225.87s
+I1121 15:08:01.619790 140410900119936 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 225.87s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 100, in test_train_eval
+    self._restore_evaluate(ckpt_p)
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 64, in _restore_evaluate
+    _, metrics = model.interpolator(img0,gt,img1)
+  File "/home/jmw/ing/myfi/vfi/src/model.py", line 339, in interpolator
+    loss_l1 = tf.reduce_mean(laploss(pred, gt))
+  File "/home/jmw/ing/myfi/vfi/src/laploss.py", line 38, in laploss
+    t_loss = tf.reduce_sum(t_losses)*tf.shape(t_img1, out_type=tf.float32)[0]
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1176, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py", line 629, in shape_v2
+    return shape(input, name, out_type)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1176, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py", line 656, in shape
+    return shape_internal(input, name, optimize=True, out_type=out_type)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py", line 697, in shape_internal
+    return gen_array_ops.shape(input, name=name, out_type=out_type)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/ops/gen_array_ops.py", line 9360, in shape
+    _ops.raise_from_not_ok_status(e, name)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/framework/ops.py", line 7209, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Value for attr 'out_type' of float is not in the list of allowed values: int32, int64
+	; NodeDef: {{node Shape}}; Op<name=Shape; signature=input:T -> output:out_type; attr=T:type; attr=out_type:type,default=DT_INT32,allowed=[DT_INT32, DT_INT64]> [Op:Shape]
+----------------------------------------------------------------------
+Ran 2 tests in 226.083s
+FAILED (errors=1, skipped=1)

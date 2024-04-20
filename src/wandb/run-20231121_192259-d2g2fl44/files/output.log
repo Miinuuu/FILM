@@ -1,0 +1,125 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                                  | 0/802 [00:00<?, ?batch/s]
+<options.Options object at 0x7fe0d46c6c40>
+<options.Options object at 0x7fe0d46c6c40>
+<options.Options object at 0x7fe0d46c6c40>
+<options.Options object at 0x7fe0d46c6c40>
+<options.Options object at 0x7fe0d46c6c40>
+  0%|                                                                                                                                                  | 0/802 [00:24<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 24.82s
+I1121 19:23:27.042099 140606480241024 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 24.82s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/my_film/src/models_test.py", line 94, in test_train_eval
+    metrics=train_step(img0,gt,img1)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 980, in _call
+    return self._stateless_fn(*args, **kwds)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2496, in __call__
+    return graph_function._call_flat(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 1862, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 499, in call
+    outputs = execute.execute(
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Graph execution error:
+Detected at node 'predict_flow/flow_predictor_0/conv_3/Conv2D' defined at (most recent call last):
+    File "/home/jmw/ing/myfi/my_film/src/models_test.py", line 105, in <module>
+      tf.test.main()
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/test.py", line 56, in main
+      return _googletest.main(argv)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 62, in main
+      benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 60, in main_wrapper
+      return app.run(main=g_main, argv=args)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/app.py", line 308, in run
+      _run_main(main, args)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+      sys.exit(main(argv))
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/platform/googletest.py", line 51, in g_main
+      absltest_main(argv=argv)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2051, in main
+      _run_in_app(run_tests, args, kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2146, in _run_in_app
+      function(argv, args, kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2549, in run_tests
+      result = _run_and_get_tests_result(
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/absltest.py", line 2518, in _run_and_get_tests_result
+      test_program = unittest.TestProgram(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/main.py", line 101, in __init__
+      self.runTests()
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/main.py", line 271, in runTests
+      self.result = testRunner.run(self.test)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/absl/testing/_pretty_print_reporter.py", line 82, in run
+      return super(TextTestRunner, self).run(test)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/runner.py", line 184, in run
+      test(result)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 84, in __call__
+      return self.run(*args, **kwds)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 122, in run
+      test(result)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 84, in __call__
+      return self.run(*args, **kwds)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/suite.py", line 122, in run
+      test(result)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 651, in __call__
+      return self.run(*args, **kwds)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 592, in run
+      self._callTestMethod(testMethod)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+      method()
+    File "/home/jmw/ing/myfi/my_film/src/models_test.py", line 94, in test_train_eval
+      metrics=train_step(img0,gt,img1)
+    File "/home/jmw/ing/myfi/my_film/src/model.py", line 86, in train_step
+      pred,metric = self.interpolator(img0,gt,img1)
+    File "/home/jmw/ing/myfi/my_film/src/model.py", line 124, in interpolator
+      forward_residual_flow_pyramid = self.predict_flow(feature_pyramids[0],
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 61, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/engine/base_layer.py", line 1097, in __call__
+      outputs = call_fn(inputs, *args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/ing/myfi/my_film/src/pyramid_flow_estimator.py", line 151, in call
+      for i in reversed(range(0, levels-1)):
+    File "/home/jmw/ing/myfi/my_film/src/pyramid_flow_estimator.py", line 159, in call
+      v_residual = self._predictors[i](feature_pyramid_a[i], warped)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 61, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/engine/base_layer.py", line 1097, in __call__
+      outputs = call_fn(inputs, *args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/ing/myfi/my_film/src/pyramid_flow_estimator.py", line 96, in call
+      for conv in self._convs:
+    File "/home/jmw/ing/myfi/my_film/src/pyramid_flow_estimator.py", line 97, in call
+      net = conv(net)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 61, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/engine/base_layer.py", line 1097, in __call__
+      outputs = call_fn(inputs, *args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+      return fn(*args, **kwargs)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/layers/convolutional/base_conv.py", line 283, in call
+      outputs = self.convolution_op(inputs, self.kernel)
+    File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/keras/layers/convolutional/base_conv.py", line 255, in convolution_op
+      return tf.nn.convolution(
+Node: 'predict_flow/flow_predictor_0/conv_3/Conv2D'
+OOM when allocating tensor with shape[64,256,256,64] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node predict_flow/flow_predictor_0/conv_3/Conv2D}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference_train_step_15165]
+----------------------------------------------------------------------
+Ran 2 tests in 24.908s
+FAILED (errors=1, skipped=1)

@@ -1,0 +1,28 @@
+Running tests under Python 3.9.18: /home/jmw/anaconda3/envs/vct_tf/bin/python
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 0.94s
+I1121 13:59:39.681943 139634367566208 test_util.py:2460] time(__main__.ModelsTest.test_train_eval): 0.94s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/ing/myfi/vfi/src/models_test.py", line 70, in test_train_eval
+    model= Model(feature_extractor(**feature_extractor_cfg), **flow_estimation_cfg)
+  File "/home/jmw/ing/myfi/vfi/src/model.py", line 76, in __init__
+    [ MotionFormerBlock(
+  File "/home/jmw/ing/myfi/vfi/src/model.py", line 76, in <listcomp>
+    [ MotionFormerBlock(
+  File "/home/jmw/ing/myfi/vfi/src/modules.py", line 301, in __init__
+    self.drop_path =  DropPath(drop_path) if drop_path > 0. else tf.identity()
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/anaconda3/envs/vct_tf/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py", line 1170, in op_dispatch_handler
+    result = api_dispatcher.Dispatch(args, kwargs)
+TypeError: Missing required positional argument
+----------------------------------------------------------------------
+Ran 2 tests in 0.939s
+FAILED (errors=1, skipped=1)
