@@ -18,7 +18,6 @@
 import functools
 import tensorflow as tf
 from model import *
-from config import MODEL_CONFIG
 from vimeo_datasets import * 
 import argparse
 from tqdm import tqdm
@@ -40,7 +39,8 @@ class ModelsTest(tf.test.TestCase):
   def _restore_evaluate(self, ckpt_p):
     """Restore and evaluate a model for the given stage."""
     print("""Restore and evaluate a model for the given stage.""")
-    model= Model(feature_extractor(**feature_extractor_cfg), **flow_estimation_cfg)
+    config=Options()
+    model= Model(config)    
     ckpt = tf.train.Checkpoint(model=model)
     #ckpt.restore(ckpt_p).assert_existing_objects_matched()
     ckpt.restore(ckpt_p).expect_partial()
