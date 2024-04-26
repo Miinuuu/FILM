@@ -1,4 +1,0 @@
-name: ema_tf
-channels:
-  - defaults
-prefix: /home/jmw/.conda/envs/ema_tf

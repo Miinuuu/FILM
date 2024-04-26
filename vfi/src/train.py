@@ -96,7 +96,7 @@ class ModelsTest(tf.test.TestCase):
         if tf.equal(epoch % 1, 0):
           ckpt_p = model.write_ckpt(args.write_ckpt_dir, step=epoch)
           print(ckpt_p)
-    self._restore_evaluate(ckpt_p)
+          self._restore_evaluate(ckpt_p)
     wandb.finish()
 
 if __name__ == "__main__":
