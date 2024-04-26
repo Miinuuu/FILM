@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/lab-com/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/lab-com/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/jmw/backup/FILM/vfi/src/train.py", line 37, in <module>
+    model= models.Model(config)
+  File "/home/jmw/backup/FILM/vfi/src/models.py", line 67, in __init__
+    self.optimizer = tf.keras.optimizers.Adam(learning_rate= self.learning_rate_schedule)
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/optimizers/adam.py", line 122, in __init__
+    self._learning_rate = self._build_learning_rate(learning_rate)
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 1282, in _build_learning_rate
+    return super()._build_learning_rate(learning_rate)
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 385, in _build_learning_rate
+    learning_rate(self.iterations)
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/optimizers/schedules/learning_rate_schedule.py", line 196, in __call__
+    initial_learning_rate, tf.pow(decay_rate, p), name=name
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py", line 1260, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/ops/math_ops.py", line 694, in pow
+    return gen_math_ops._pow(x, y, name=name)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py", line 7283, in _pow
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+KeyboardInterrupt

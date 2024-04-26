@@ -54,11 +54,17 @@ class Model(tf.Module):
             'predict_flow', config)
         self.fuse = fusion.Fusion('fusion', self.config)
         self._all_trainable_variables = None
-        #self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
-        #    initial_learning_rate=.0001, decay_steps=750000, decay_rate=0.464158)
-        self.learning_rate_schedule = tf.keras.experimental.CosineDecay(initial_learning_rate=0.0001, decay_steps=750000, alpha=0.464158)
-        self.optimizer = tf.keras.optimizers.Adam(learning_rate= self.learning_rate_schedule)
+        #self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=.0001, decay_steps=750000, decay_rate=0.464158)
         #self.optimizer = tfa_optimizers.AdamW(learning_rate= self.learning_rate_schedule,weight_decay=0.0001)
+        #self.learning_rate_schedule = tf.keras.experimental.CosineDecay(initial_learning_rate=0.0001, decay_steps=750000, alpha=0.464158)
+
+
+        self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+        initial_learning_rate = 0.0001,
+        decay_steps = 750000,
+        decay_rate = 0.464158,
+        staircase = True)
+        self.optimizer = tf.keras.optimizers.Adam(learning_rate= self.learning_rate_schedule)
 
 
     def _iter_trainable_variables(self):
