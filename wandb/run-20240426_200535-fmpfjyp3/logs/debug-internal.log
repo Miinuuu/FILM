@@ -85,3 +85,10 @@
 2024-04-26 20:06:15,040 DEBUG   SenderThread:3269401 [sender.py:send():379] send: history
 2024-04-26 20:06:15,041 DEBUG   SenderThread:3269401 [sender.py:send_request():406] send_request: summary_record
 2024-04-26 20:06:15,041 INFO    SenderThread:3269401 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 20:06:16,015 INFO    Thread-12 :3269401 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/backup/FILM/wandb/run-20240426_200535-fmpfjyp3/files/wandb-summary.json
+2024-04-26 20:06:16,267 DEBUG   HandlerThread:3269401 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 20:06:16,267 DEBUG   SenderThread:3269401 [sender.py:send():379] send: history
+2024-04-26 20:06:16,267 DEBUG   SenderThread:3269401 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 20:06:16,268 INFO    SenderThread:3269401 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 20:06:17,015 INFO    Thread-12 :3269401 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/backup/FILM/wandb/run-20240426_200535-fmpfjyp3/files/wandb-summary.json
+2024-04-26 20:06:17,015 INFO    Thread-12 :3269401 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jmw/backup/FILM/wandb/run-20240426_200535-fmpfjyp3/files/output.log
