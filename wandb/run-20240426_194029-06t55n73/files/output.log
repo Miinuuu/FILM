@@ -1,0 +1,74 @@
+Running tests under Python 3.10.9: /home/lab-com/anaconda3/bin/python3
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+  0%|                                                                                                                                                                                                                 | 0/1604 [00:22<?, ?batch/s]
+INFO:tensorflow:time(__main__.ModelsTest.test_train_eval): 22.82s
+I0426 19:40:56.477100 140084161688192 test_util.py:2472] time(__main__.ModelsTest.test_train_eval): 22.82s
+[  FAILED  ] ModelsTest.test_train_eval
+======================================================================
+ERROR: test_train_eval (__main__.ModelsTest)
+ModelsTest.test_train_eval
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jmw/backup/FILM/vfi/src/train.py", line 92, in test_train_eval
+    metrics=train_step(img0,gt,img1)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 141, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 831, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 904, in _call
+    return tracing_compilation.call_function(
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/concrete_function.py", line 1264, in _call_flat
+    return self._inference_function.flat_call(args)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 217, in flat_call
+    flat_outputs = self(*args)
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 252, in __call__
+    outputs = self._bound_context.call_function(
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py", line 1479, in call_function
+    outputs = execute.execute(
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 60, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnimplementedError: Graph execution error:
+Detected at node average_pooling2d_1/AvgPool defined at (most recent call last):
+  File "/home/lab-com/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/home/lab-com/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/home/jmw/backup/FILM/vfi/src/train.py", line 103, in <module>
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/platform/test.py", line 56, in main
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/platform/googletest.py", line 62, in main
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/platform/googletest.py", line 60, in main_wrapper
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/app.py", line 308, in run
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
+  File "/home/jmw/.local/lib/python3.10/site-packages/tensorflow/python/platform/googletest.py", line 51, in g_main
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/testing/absltest.py", line 2070, in main
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/testing/absltest.py", line 2165, in _run_in_app
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/testing/absltest.py", line 2628, in run_tests
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/testing/absltest.py", line 2592, in _run_and_get_tests_result
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/main.py", line 101, in __init__
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/main.py", line 271, in runTests
+  File "/home/jmw/.local/lib/python3.10/site-packages/absl/testing/_pretty_print_reporter.py", line 82, in run
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/runner.py", line 184, in run
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/suite.py", line 84, in __call__
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/suite.py", line 122, in run
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/suite.py", line 84, in __call__
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/suite.py", line 122, in run
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/case.py", line 650, in __call__
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/case.py", line 591, in run
+  File "/home/lab-com/anaconda3/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+  File "/home/jmw/backup/FILM/vfi/src/train.py", line 92, in test_train_eval
+  File "/home/jmw/backup/FILM/vfi/src/models.py", line 86, in train_step
+  File "/home/jmw/backup/FILM/vfi/src/models.py", line 115, in interpolator
+  File "/home/jmw/backup/FILM/vfi/src/util.py", line 41, in build_image_pyramid
+  File "/home/jmw/backup/FILM/vfi/src/util.py", line 43, in build_image_pyramid
+  File "/home/jmw/backup/FILM/vfi/src/util.py", line 44, in build_image_pyramid
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 61, in error_handler
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+  File "/home/jmw/.local/lib/python3.10/site-packages/keras/src/layers/pooling/base_pooling2d.py", line 84, in call
+DNN library is not found.
+	 [[{{node average_pooling2d_1/AvgPool}}]] [Op:__inference_train_step_19439]
+----------------------------------------------------------------------
+Ran 2 tests in 22.857s
+FAILED (errors=1, skipped=1)

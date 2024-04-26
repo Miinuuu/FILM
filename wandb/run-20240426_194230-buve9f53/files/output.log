@@ -1,0 +1,36 @@
+Running tests under Python 3.10.9: /home/lab-com/anaconda3/bin/python3
+[ RUN      ] ModelsTest.test_session
+[  SKIPPED ] ModelsTest.test_session
+[ RUN      ] ModelsTest.test_train_eval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

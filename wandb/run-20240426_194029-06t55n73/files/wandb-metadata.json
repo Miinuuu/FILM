@@ -1,0 +1,211 @@
+{
+    "os": "Linux-5.15.0-102-generic-x86_64-with-glibc2.31",
+    "python": "3.10.9",
+    "heartbeatAt": "2024-04-26T10:40:30.224597",
+    "startedAt": "2024-04-26T10:40:29.623346",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "-m vfi.src.train",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Miinuuu/FILM.git",
+        "commit": "e41b06941e438b85c54cecec7ae281931da6eb32"
+    },
+    "email": "jeongminwu@gmail.com",
+    "root": "/home/jmw/backup/FILM",
+    "host": "labcom-System-Product-Name",
+    "username": "jmw",
+    "executable": "/home/lab-com/anaconda3/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2.6226562500000017,
+        "min": 2200.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4.371,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3.4,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4.577,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4.577,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4.577,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3.4,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.8,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3.4,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3.4,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4.221,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.8154449462891,
+            "used": 687.7617492675781
+        }
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 78.44862747192383
+    }
+}
