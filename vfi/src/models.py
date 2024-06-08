@@ -59,13 +59,27 @@ class Model(tf.Module):
         #self.learning_rate_schedule = tf.keras.experimental.CosineDecay(initial_learning_rate=0.0001, decay_steps=750000, alpha=0.464158)
 
 
-        self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+        '''self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
         initial_learning_rate = 0.0001,
         decay_steps = 750000,
         decay_rate = 0.464158,
         staircase = True)
-        self.optimizer = tf.keras.optimizers.Adam(learning_rate= self.learning_rate_schedule)
+        '''
+        
+        learning_rate = 0.0001
+        learning_rate_decay_steps = 750000
+        learning_rate_decay_rate = 0.464158
+        learning_rate_staircase = True
+        num_steps = 3000000
 
+        self.learning_rate_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+            learning_rate,
+            learning_rate_decay_steps,
+            learning_rate_decay_rate,
+            learning_rate_staircase,
+            name='learning_rate')
+
+        self.optimizer = tf.keras.optimizers.Adam(learning_rate= self.learning_rate_schedule)
 
     def _iter_trainable_variables(self):
 
